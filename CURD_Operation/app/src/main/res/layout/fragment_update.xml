@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.susmita.curd_operation.Update">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="#5689d6"
+        android:textColor="#fff"/>
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ename"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter esal"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter designation"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:textSize="25dp"
+        android:background="#f7f720" />
+
+</LinearLayout>
